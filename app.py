@@ -13,7 +13,7 @@ PAGE = """
 <!doctype html>
 <html>
   <body>
-    <iframe src="/static/imran.html" width="600" height="400" title="Contenu externe"></iframe>
+    <form action="/static/imran.html">
     
     <form action="https://oauth.telegram.org/auth/auth">
       <input type="hidden" name="bot_id" value="8052318119" />
