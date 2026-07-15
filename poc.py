@@ -47,6 +47,6 @@ def index():
         form2_hash=FORM2_HASH
     )
 
-if __name__ == "__main__":
+if __name__ == "__main__":    
     # Setting debug=True helps auto-reload the server when files change
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=8000, debug=True)
